@@ -7,8 +7,6 @@ import java.net.URLConnection;
 
 public class HttpRequestUtils {
 
-  public static final String CHARSET = "UTF-8";
-
   public static String sendGet(String url, String param) {
     String result = "";
     BufferedReader in = null;
@@ -27,7 +25,7 @@ public class HttpRequestUtils {
         // 获取所有响应头字段
         // 定义 BufferedReader输入流来读取URL的响应
         in = new BufferedReader(new InputStreamReader(
-                connection.getInputStream()));
+                connection.getInputStream(), "utf-8"));
         String line;
         while ((line = in.readLine()) != null) {
             result += line;

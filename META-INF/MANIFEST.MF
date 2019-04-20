@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: StartTime
-Bundle-SymbolicName: startTime;singleton:=true
+Bundle-Name: HelloEclipse
+Bundle-SymbolicName: helloEclipse;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: starttime.Activator
 Require-Bundle: org.eclipse.ui,
@@ -11,3 +11,4 @@ Automatic-Module-Name: startTime
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: META-INF/lib/gson-2.8.5.jar,
  .
+Bundle-Vendor: Sysecho

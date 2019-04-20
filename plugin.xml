@@ -34,8 +34,5 @@
          point="org.eclipse.ui.startup">
          <startup class="starttime.StartUpTimeShow"/>
    </extension>
-   <extension
-         point="org.eclipse.ui.menus">
-   </extension>
 
 </plugin>
