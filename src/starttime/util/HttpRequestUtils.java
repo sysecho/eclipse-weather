@@ -31,7 +31,7 @@ public class HttpRequestUtils {
             result += line;
         }
     } catch (Exception e) {
-        e.printStackTrace();
+    	return null;
     }
     // 使用finally块来关闭输入流
     finally {
